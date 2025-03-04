@@ -1,0 +1,33 @@
+.fa{
+   font-size: 40px !important;
+    cursor: pointer;
+}
+
+.fa-star{
+    color:gold
+}
+
+.fa-star-o {
+    color: black;
+}
+
+.star-rating-section{
+    box-shadow: 4px 4px 12px grey;
+    height: 100px;
+    padding: 10px;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+#star-value{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 10px;
+}
